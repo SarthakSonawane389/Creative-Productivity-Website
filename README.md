@@ -40,25 +40,3 @@ React Router DOM
 Framer Motion
 
 CSS (custom, no UI libraries)
-
-📁 Project Structure
-src/
-├── components/
-│   ├── layout/
-│   ├── ui/
-│   └── habits/
-├── pages/
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
-This structure separates:
-
-Global layout components
-
-Reusable UI primitives
-
-Feature-specific logic
-
-Route-level pages
