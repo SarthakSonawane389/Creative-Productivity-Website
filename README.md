@@ -1,16 +1,64 @@
-# React + Vite
+Creative Productivity Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, calm productivity-focused website built with React.
+This project explores intentional layout structure, clean component architecture, and subtle motion to create a focused, user-friendly experience.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Multi-page website with routing
 
-## React Compiler
+Global layout with reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Habit tracking feature (add, toggle, delete)
 
-## Expanding the ESLint configuration
+Clean visual hierarchy and spacing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Subtle micro-interactions and animations
+
+Responsive, readable layout using a container system
+
+🧠 Project Focus
+
+This project was built to practice and demonstrate:
+
+Website-level frontend architecture
+
+Proper separation of pages, layout, UI, and feature components
+
+Thoughtful spacing, typography, and visual rhythm
+
+Motion that supports interaction without distraction
+
+Clean state management at the page level
+
+🧩 Tech Stack
+
+React (with Vite)
+
+React Router DOM
+
+Framer Motion
+
+CSS (custom, no UI libraries)
+
+📁 Project Structure
+src/
+├── components/
+│   ├── layout/
+│   ├── ui/
+│   └── habits/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+This structure separates:
+
+Global layout components
+
+Reusable UI primitives
+
+Feature-specific logic
+
+Route-level pages
